@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="400.0" style="-fx-background-color: #fafafa;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Sample3Controller">
+    <children>
+        <Label layoutX="69.0" layoutY="21.0" prefHeight="58.0" prefWidth="194.0" text="Заполните все поля!">
+            <font>
+                <Font name="Arial" size="20.0" />
+            </font>
+        </Label>
+      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="14.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@vcsconflicting_93497.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

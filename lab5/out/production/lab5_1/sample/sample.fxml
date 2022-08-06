@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1000" maxWidth="2000" minHeight="1000" minWidth="2000" prefHeight="1000" prefWidth="1000" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <AnchorPane layoutY="115.0" prefHeight="844.0" prefWidth="1042.0">
+            <children>
+                <LineChart fx:id="LineChart1" layoutX="14.0" layoutY="14.0" style="-fx-background-color: #D9D9D9;" title="Добавление в конец">
+                    <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </LineChart>
+                <LineChart fx:id="LineChart2" layoutX="14.0" layoutY="430.0" style="-fx-background-color: #D9D9D9;" title="Удаление с рандомной позиции">
+                    <xAxis>
+                        <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                        <NumberAxis side="LEFT" />
+                    </yAxis>
+                </LineChart>
+            </children></AnchorPane>
+        <Label layoutX="47.0" layoutY="14.0" text="Замеры времени для ArrayList и HashMap" textAlignment="CENTER" textFill="BLACK">
+            <font>
+                <Font size="40" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
