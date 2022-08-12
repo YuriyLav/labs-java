@@ -13,7 +13,7 @@ import javax.swing.*;
 public class Model {
     public static boolean sendMail(String recipient, String head, String text, String coding) {
         String username="sender.pyth@gmail.com";
-        String password = "sender.pyth191102";
+        //String password = "";
         String SMTP = "smtp.gmail.com";
         String port = "465";
         boolean success = true;
